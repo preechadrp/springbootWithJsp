@@ -32,3 +32,8 @@ build/
 ### VS Code ###
 .vscode/
 logs/
+
+repo/**/*.sha1
+repo/**/*.md5
+repo/**/*.lastUpdated
+repo/**/_remote.repositories
