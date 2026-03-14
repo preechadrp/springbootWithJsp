@@ -13,7 +13,7 @@ mvn install:install-file "-Dmaven.repo.local=repo" ^
  -DgeneratePom=true
 
 ==รันเพื่อเอา  lib  มาเก็บที่เดียวกับ code  ต้องรันที่ project folder ที่เครื่อง dev
-mvn -Dmaven.repo.local=repo dependency:go-offline
+mvn "-Dmaven.repo.local=repo" dependency:go-offline
 #mvn "-Dmaven.repo.local=repo" clean package -DskipTests ไม่ต้องก็ได้ยกเว้นต้องการทดสอบว่า build ผ่านไหม 
 และเพิ่มข้อความลงใน .gitignore ก่อน commit ไปใน gitlab
 repo/**/*.sha1
