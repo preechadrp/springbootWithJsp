@@ -33,6 +33,8 @@ build/
 .vscode/
 logs/
 
+#for offline mvn 
+#mvn "-Dmaven.repo.local=repo" clean package -DskipTests 
 repo/**/*.sha1
 repo/**/*.md5
 repo/**/*.lastUpdated
