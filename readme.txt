@@ -32,7 +32,7 @@ ENV PATH=$M2_HOME/bin:$JAVA_HOME/bin:$PATH
  
 COPY pom.xml .
 COPY src .
-COPY repo ./repo
+COPY repo .
 
 RUN mvn -o "-Dmaven.repo.local=repo" clean package -DskipTests
 ...
