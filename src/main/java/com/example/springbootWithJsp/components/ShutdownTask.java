@@ -1,4 +1,4 @@
-package com.example.springbootWithJsp;
+package com.example.springbootWithJsp.components;
 
 import org.springframework.stereotype.Component;
 
@@ -12,7 +12,7 @@ public class ShutdownTask {
 	
     @PreDestroy
     public void onShutdown() {
-    	log.info("Application shutting down...");
+    	log.info("ShutdownTask...");
         // ทำสิ่งที่ต้องการ เช่น
         // - ปิด connection
         // - flush log
