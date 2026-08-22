@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-   hello jsp
-   <div>
-      <iframe src="./frame1.jsp"></iframe>
-   </div>
+   hello iframe jsp
 </body>
 </html>
